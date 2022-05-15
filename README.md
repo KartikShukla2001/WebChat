@@ -1,33 +1,31 @@
-# MERN Stack - Build a social media app 
-> MERN Stack Build  a social media app (instagram , facebook, twitter clone) with MERN  + Redux  + Bootstrap 4
+# Realtime Chat Application
 
-## Demo: https://v-network-devat.herokuapp.com/
+A Global Chat which can be used by anyone using the application to broadcast messages to everyone else.
+A Private Chat functionality where users can chat with other users privately.
+Real-time updates to the user list, conversation list, and conversation messages.
 
-## Author: Dev AT
+# Requirements:
+Insert the MONGODB URI in the .env file
 
-## Youtube tutorials: https://www.youtube.com/watch?v=DLtVKgkCKx8&list=PLs4co9a6NhMyAfSnDg1MKGwLdLx0OA07d
+# HOW TO USE:
 
-## Install dependencies for server 
-### `npm install`
+Install dependecies for the server 
+npm install
 
-## Install dependencies for client
-### cd client ---> `npm install`
+Install dependencies for client
 
-## Connect to your mongodb and add info in .env
+cd client
+npm install
 
-## Run the client & server with concurrently
-### `npm run dev`
+Run the Express server only
 
-## Run the Express server only
-### `npm run server`
+npm run server
 
-## Run the React client only
-### `npm run client`
+Run the client & server with concurrently
 
-### Server runs on http://localhost:5000 and client on http://localhost:3000
+npm run client
 
-### Interface 
-
-![alt](https://res.cloudinary.com/devat-channel/image/upload/v1621001242/v-network/Untitled_q3jvqa.png)
+Run the client & server with concurrently
+npm run dev
 
 
